@@ -3,7 +3,7 @@
 Introduction :
 
 This project of music player is made using android studio.This project is implemented using kotlin language and user interface and icons is
-designed using Adobe spark post.
+designed using adobe spark post.
 
 Procedure:
 

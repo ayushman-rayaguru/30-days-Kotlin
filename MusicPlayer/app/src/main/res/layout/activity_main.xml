@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/rootRL"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginStart="-93dp"
+        android:layout_marginLeft="-93dp"
+        android:background="@drawable/background" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="79dp"
+        android:layout_marginLeft="79dp"
+        android:layout_marginTop="145dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginRight="76dp"
+        android:layout_marginBottom="330dp"
+        android:scaleType="center"
+        android:background="@drawable/image" />
+    <SeekBar
+        android:id="@+id/positionBar"
+        android:layout_marginStart="78dp"
+        android:layout_marginLeft="78dp"
+        android:layout_marginEnd="77dp"
+        android:layout_marginRight="77dp"
+        android:layout_marginBottom="300dp"
+        android:layout_width="304dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="420dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/elapsedTimeLabel"
+            android:layout_marginTop="440dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-1.11"
+            android:layout_marginLeft="40dp"/>
+
+        <TextView
+            android:id="@+id/remainingTimeLabel"
+            android:layout_marginTop="440dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-1.11"
+            android:layout_marginLeft="340dp"/>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/playBtn"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="174dp"
+        android:layout_marginLeft="174dp"
+        android:layout_marginTop="437dp"
+        android:layout_marginEnd="167dp"
+        android:layout_marginRight="167dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/play"
+        android:onClick="playBtnClick"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="510dp"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/sound" />
+
+        <SeekBar
+            android:id="@+id/volumeBar"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="59dp"
+            android:layout_marginRight="59dp"
+            android:max="100"
+            android:progress="50" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="330dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginRight="28dp"
+            android:src="@drawable/sound2" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
+
+
+
+
